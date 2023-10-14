@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --amarelo: #F3BD02;
+    --azul: #0d2b4b;
+}
+
+.top-header {
+    padding-left: 15px;
+    height: 40px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    font-size: 11px;
+    color: rgb(211, 211, 211);
+    width: 100vw;
+    justify-content: space-between;
+    background-color: var(--azul);
+}
+
+.top-header, .top-header-right, .top-header-left {
+    align-items: center;
+    display: flex;
+}
+
+.top-header-left p {
+    margin-right: 15px;
+}
+
+.img-top-header {
+    width: 12px;
+    height: 12px;
+}
+
+.top-header-left {
+    margin-right: 30px;
+}
+
+.icons {
+    margin-right: 15px;
+    display: flex;
+}
+
+.img-top-header {
+    margin-right: 7px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+
+.logo {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 7px;
+    width: 38px;
+}
+
+.logo h1 {
+    color: var(--azul)
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+}
+
+.lista ul {
+    display: flex;
+    list-style: none;
+}
+
+.lista ul li a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #0d2b4b;
+    padding-right: 30px;
+}
+
+.lista ul li a:hover {
+    transition: all 0.2s ease;
+    color: var(--amarelo);
+}
+
+.botao_header {
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: var(--amarelo);
+    width: 200px;
+    height: 80px;
+}
+
+.botao_header:hover {
+    transition: all 0.2s ease;
+    background-color: #ffc800;
+}
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 700px;
+    background-image: url('./assets/woman\ car.png');
+}
+
+.section_2_content {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.section_2 h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section_2 .buttons {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.section_2 .botao_amarelo,
+.section_2 .botao_branco {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+}
+
+.section_2 .botao_amarelo {
+    background-color: var(--amarelo);
+}
+
+.section_2 .botao_amarelo:hover {
+    transition: all 0.2s ease;
+    background-color: #ffc800;
+}
+
+.section_2 .botao_branco:hover {
+    transition: all 0.2s ease;
+    background-color: #ededed;
+}
+
+.section_2 .botao_branco {
+    background-color: white;
+    color: black;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 130px;
+}
+
+.section-3-left h4 {
+    color: var(--amarelo);
+    margin-bottom: 10px;
+}
+
+.section-3-left h2{
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: .5px;
+    color: var(--azul);
+    margin-bottom: 20px;
+}
+
+.section-3-left p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.checks {
+    display: flex;
+}
+
+.check-left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img-text img {
+    width: 35px;
+    height: 35px;
+}
+
+.img-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.img-text h1 {
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.section-3-right img {
+    width: 600px;
+}
